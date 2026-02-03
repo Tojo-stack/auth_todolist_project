@@ -2,7 +2,7 @@
 .Home{
     margin: 0;
     box-sizing: 0;
-    background:rgb(144, 144, 249);
+    background:rgb(255, 217, 3);
     height: 100vh;
     width: 100%;
 }
@@ -60,7 +60,7 @@ main form{
     place-items: center;
     height: 20vh;
     width: 40%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 1px solid #000;
     border-radius: 5px;
     
