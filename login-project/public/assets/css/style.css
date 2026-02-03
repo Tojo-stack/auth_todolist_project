@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f2f5;
+    background:url(../images/fond.jpg) no-repeat center center/cover;
 }
 
 form{
@@ -44,15 +44,4 @@ button:hover{
 #message{
     margin-top: 15px;
     color: red;
-}
-
-/* Pour To_Do */
-.welcomeBtn{
-    position: fixed;
-    top: 30px;
-    left: 20px;
-}
-.title{
-    position: fixed;
-    top: 10px;
 }

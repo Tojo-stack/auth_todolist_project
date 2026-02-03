@@ -1,0 +1,107 @@
+/* Page protégé*/
+.Home{
+    margin: 0;
+    box-sizing: 0;
+    background:rgb(144, 144, 249);
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    background: #fff;
+    height:70px;
+    width: 100%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+p{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logout{
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 40px;
+}
+
+.logout:hover{
+    color: #f0f2f5;
+    background-color: #333;
+    transition: 0.3s;
+    transform: scale(1.07);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+}
+
+
+.title{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    place-items: center;
+}
+
+main form{
+    display: grid;
+    place-items: center;
+    height: 20vh;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    border-radius: 5px;
+    
+}
+
+input{
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius:5px;
+    border: none;
+    margin-bottom: 20px;
+    height: 2rem;
+    padding-inline: 20px;
+}
+
+button:hover{
+    color: #f0f2f5;
+    background-color: #333;
+    transition: 0.3s;
+    transform: scale(1.07);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+}
+
+.todo{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+ul{
+    padding-left: 0;
+}
