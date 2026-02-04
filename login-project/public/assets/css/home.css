@@ -1,8 +1,13 @@
 /* Page protégé*/
-.Home{
+.home{
     margin: 0;
     box-sizing: 0;
-    background:rgb(255, 217, 3);
+     background: linear-gradient(
+    135deg,
+    #f2f3f5 55%,
+    #fff1b8 55.1%,
+    #fff1b8 100%
+  );
     height: 100vh;
     width: 100%;
 }
@@ -28,6 +33,13 @@ a{
 }
 
 .logout{
+    background: #fff1b8;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+
     margin-top: 15px;
     margin-right: 15px;
     height: 40px;
@@ -35,7 +47,7 @@ a{
 
 .logout:hover{
     color: #f0f2f5;
-    background-color: #333;
+    background: #f4c430;
     transition: 0.3s;
     transform: scale(1.07);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
@@ -60,10 +72,23 @@ main form{
     place-items: center;
     height: 20vh;
     width: 40%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 1px solid #000;
+    box-shadow:0 10px 25px rgba(0, 0, 0, 0.12);
+    transform: translateY(-10px);
+    padding: 2rem;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    border: 2px solid #fff;
     border-radius: 5px;
-    
+    backdrop-filter: blur(12px);
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+form {
+  animation: float 6s ease-in-out infinite;
 }
 
 input{
@@ -71,7 +96,7 @@ input{
     margin: 15px auto;
     width: 90%;
     height: 5vh;
-    border: none;
+    border: solid 1px #000;
     border-radius: 5px;
 }
 
