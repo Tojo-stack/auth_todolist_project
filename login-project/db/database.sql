@@ -1,5 +1,5 @@
---creation de la base
-create database login_db;
+-- --creation de la base
+-- create database login_db;
 
 -- Se connecter à la base 
 -- \c login_db;
