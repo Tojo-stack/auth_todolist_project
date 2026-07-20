@@ -1,5 +1,0 @@
-# ignore the .env file 
-login-project/.env
-
-# ignore node modules
-login-project/node_modules/
