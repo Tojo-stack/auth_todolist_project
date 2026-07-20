@@ -11,7 +11,7 @@ const { password } = require('pg/lib/defaults');
 
 
 const app = express()
-const port = 3000
+const port = process.env.DB_PORT || 3000
 
 
 // connexion à PostgreSQL
@@ -41,7 +41,7 @@ app.use(session({
     store: new PgSession({pool}), 
 
     //clé secrète pour signer les cookies
-    secret: "unSecretTresSolide123", 
+    secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
     cookie:{secure: false}
