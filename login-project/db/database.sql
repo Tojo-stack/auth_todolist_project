@@ -2,7 +2,7 @@
 create database login_db;
 
 -- Se connecter à la base 
-\c login_db;
+-- \c login_db;
 
 --Création de la table utilisateurs
 CREATE TABLE IF NOT EXISTS users (
